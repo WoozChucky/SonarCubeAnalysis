@@ -5,10 +5,8 @@ using SonarQubeAnalysis.Math;
 
 namespace SonarQubeAnalysis
 {
-    public sealed class SonarCore
+    public class SonarCore
     {
-        private readonly string _name;
-
         public Calculator Calculator
         {
             get; private set;
@@ -16,13 +14,18 @@ namespace SonarQubeAnalysis
 
         public SonarCore(string name)
         {
-            _name = name;
 #if DEBUG
             ILogger logger = new ConsoleLogger();
 #endif
 #if RELEASE
             ILogger logger = new DatabaseLogger();
 #endif
+            if (true) 
+            {
+                Calculator = null;
+                Calculator.Multiply(0, 5);
+            }
+
             Calculator = new Calculator(logger);
         }
     }

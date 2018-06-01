@@ -6,7 +6,7 @@ namespace SonarQubeAnalysis.Logging
     /// <summary>
     /// Database logger.
     /// </summary>
-    public sealed class DatabaseLogger : ILogger
+    public class DatabaseLogger : ILogger
     {
 
         public void Debug(object obj)
