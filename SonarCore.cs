@@ -20,6 +20,11 @@ namespace SonarQubeAnalysis
 #if RELEASE
             ILogger logger = new DatabaseLogger();
 #endif
+            var msg = "123";
+
+            print(msg);
+
+            write(msg);
 
             Calculator = new Calculator(logger);
 
@@ -30,6 +35,16 @@ namespace SonarQubeAnalysis
             Calculator.Divide(1, 1);
 
             UnusedClass @class = new UnusedClass();
+        }
+
+        void print(string data) 
+        {
+            Console.WriteLine(data);
+        }
+
+        void write(string data)
+        {
+            Console.WriteLine(data);
         }
     }
 }

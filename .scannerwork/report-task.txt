@@ -3,5 +3,5 @@ projectKey=sdgfdgsfh
 serverUrl=https://sonarcloud.io
 serverVersion=7.2.0.12516
 dashboardUrl=https://sonarcloud.io/dashboard/index/sdgfdgsfh
-ceTaskId=AWPKO-vERIlG_RTu9ipA
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWPKO-vERIlG_RTu9ipA
+ceTaskId=AWPKPgIIRIlG_RTu9ipD
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWPKPgIIRIlG_RTu9ipD
