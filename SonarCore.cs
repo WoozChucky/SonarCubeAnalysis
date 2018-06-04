@@ -23,6 +23,12 @@ namespace SonarQubeAnalysis
 
             Calculator = new Calculator(logger);
 
+            Calculator.Add(5, 10);
+
+            Calculator = null;
+
+            Calculator.Divide(1, 1);
+
             UnusedClass @class = new UnusedClass();
         }
     }
