@@ -1,0 +1,10 @@
+L
+J/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/Logging/ConsoleLogger.csM
+K/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/Logging/DatabaseLogger.csQ
+O/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/Logging/Interfaces/ILogger.csF
+D/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/Math/Calculator.csR
+P/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/Math/Interfaces/ICalculator.cs@
+>/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/SonarCore.csB
+@/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/UnusedClass.csc
+_/var/folders/ny/rsmh720n2f712cq0p8_v767w0000gp/T/.NETCoreApp,Version=v2.0.AssemblyAttributes.cso
+k/Users/nb22477/Documents/GI@MOB/SonarQubeAnalysis/obj/Debug/netcoreapp2.0/SonarQubeAnalysis.AssemblyInfo.cs

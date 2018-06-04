@@ -14,7 +14,6 @@ namespace SonarQubeAnalysis
 
         public SonarCore(string name)
         {
-            asd
 #if DEBUG
             ILogger logger = new ConsoleLogger();
 #endif
@@ -23,6 +22,8 @@ namespace SonarQubeAnalysis
 #endif
 
             Calculator = new Calculator(logger);
+
+            UnusedClass @class = new UnusedClass();
         }
     }
 }

@@ -5,6 +5,7 @@ namespace SonarQubeAnalysis
     {
         public UnusedClass()
         {
+            throw new Exception();
         }
 
         public bool IsTrue() {
