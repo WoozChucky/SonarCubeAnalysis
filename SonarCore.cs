@@ -23,7 +23,7 @@ namespace SonarQubeAnalysis
             var msg = "123";
 
             print(msg);
-
+            sdfghjkl
             write(msg);
 
             Calculator = new Calculator(logger);

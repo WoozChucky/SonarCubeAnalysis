@@ -1,7 +1,7 @@
 organization=woozchucky-github
-projectKey=sdgfdgsfh
+projectKey=sonarqube-github
 serverUrl=https://sonarcloud.io
 serverVersion=7.2.0.12516
-dashboardUrl=https://sonarcloud.io/dashboard/index/sdgfdgsfh
-ceTaskId=AWPKPgIIRIlG_RTu9ipD
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWPKPgIIRIlG_RTu9ipD
+dashboardUrl=https://sonarcloud.io/dashboard/index/sonarqube-github
+ceTaskId=AWPLCPWpCe6eSPJhzOYt
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWPLCPWpCe6eSPJhzOYt
