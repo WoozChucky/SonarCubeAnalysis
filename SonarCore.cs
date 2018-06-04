@@ -14,17 +14,13 @@ namespace SonarQubeAnalysis
 
         public SonarCore(string name)
         {
+            asd
 #if DEBUG
             ILogger logger = new ConsoleLogger();
 #endif
 #if RELEASE
             ILogger logger = new DatabaseLogger();
 #endif
-            if (true) 
-            {
-                Calculator = null;
-                Calculator.Multiply(0, 5);
-            }
 
             Calculator = new Calculator(logger);
         }
